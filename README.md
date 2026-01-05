@@ -1,9 +1,11 @@
 # Today I Learned
 
+**Today's Date:** <!-- DATE_START -->2026년 01월 05일<!-- DATE_END -->
+
 This repository is for tracking my "Today I Learned" journey.
 
 This repository will be active until February 8th, during which I will be studying for the ADSP exam.
-## 2024-01-29
+## 2025-01-05
 
 ### ADSP
 

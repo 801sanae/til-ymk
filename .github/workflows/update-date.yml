@@ -1,0 +1,22 @@
+name: Update Date
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs every day at midnight UTC
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Update date in README
+        run: |
+          sed -i "s|<!-- DATE_START -->.*<!-- DATE_END -->|<!-- DATE_START -->$(date +'%Y년 %m월 %d일')<!-- DATE_END -->|g" README.md
+
+      - name: Commit and push if changed
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "docs: Update date in README"
+          file_pattern: README.md
