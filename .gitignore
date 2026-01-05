@@ -1,0 +1,34 @@
+/.vscode
+# Python virtual environments
+.venv/
+venv/
+
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS specific
+.DS_Store
+
+# Log files
+*.log
+
+# Build artifacts
+build/
+dist/
+
+# IDE specific (if any)
+.idea/
+
+# Data files (uncomment if you don't want to track these)
+# *.csv
+# *.parquet
+# *.feather
+# *.pkl
+# *.pickle
+# *.hdf5
