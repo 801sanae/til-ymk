@@ -2,7 +2,7 @@ name: Update Date
 
 on:
   schedule:
-    - cron: '30 0 * * *' # Runs every day at midnight UTC
+    - cron: '35 15 * * *' # 매일 KST 00:30에 실행 (UTC 15:30 전날)
 
 jobs:
   update-readme:
