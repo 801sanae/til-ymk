@@ -1,6 +1,6 @@
 # Today I Learned
 
-**Today's Date:** <!-- DATE_START -->2026년 01월 18일<!-- DATE_END -->
+**Today's Date:** <!-- DATE_START -->2026년 01월 19일<!-- DATE_END -->
 
 This repository is for tracking my "Today I Learned" journey.
 
