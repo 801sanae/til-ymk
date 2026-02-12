@@ -1,8 +1,7 @@
 name: Update Date
 
 on:
-  schedule:
-    - cron: '35 15 * * *' # 매일 KST 00:30에 실행 (UTC 15:30 전날)
+  workflow_dispatch:
 
 jobs:
   update-readme:
